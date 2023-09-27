@@ -1,0 +1,47 @@
+.sidebar {
+  width: 300px;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.sidebar.open {
+  width: 80px;
+}
+
+.sidebar .toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  cursor: pointer;
+}
+
+.sidebar .toggle i {
+  color: white;
+}
+
+.sidebar .toggle:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar .toggle:hover i {
+  color: white;
+}
+
+.sidebar .list-group-item {
+  padding: 20px;
+  border-bottom: 1px solid white;
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar .list-group-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: black;
+}
+
+.sidebar .list-group-item i {
+  margin-right: 10px;
+}

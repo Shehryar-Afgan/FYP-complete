@@ -1,0 +1,197 @@
+[
+  {
+    "question": "A ⊆ B means ",
+    "category": "Maths",
+    "options": [
+      "A is superset of B ",
+      "A is subset of B",
+      " A and B are disjoint sets ",
+      "A is improper subset of B"
+    ],
+    "correct_answer": "A is subset of B"
+  },
+  {
+    "question": "Two matrix A and B are equal if ",
+    "category": "Maths",
+    "options": [
+      "They are square matrix ",
+      "They have same order",
+      "  Their corresponding elements are equal",
+      "They have same number of columns"
+    ],
+    "correct_answer": "Their corresponding elements are equal"
+  },
+  {
+    "question": "Degree of x4 + 2x - 1 is",
+    "category": "Maths",
+    "options": ["0", "-1", "2", "4"],
+    "correct_answer": "4"
+  },
+  {
+    "question": "The quadratic eq. Having roots 2 and - is",
+    "category": "Maths",
+    "options": [
+      "-x2 + x - 6 = 0",
+      " X2 + x - 6 = 0",
+      "X2 - x - 6 = 0 ",
+      " X2 + x + 6 = 0 "
+    ],
+    "correct_answer": " X2 + x - 6 = 0 "
+  },
+  {
+    "question": "The general term of a sequence is denoted by",
+    "category": "Maths",
+    "options": ["an", "na", "Sn", "a+d"],
+    "correct_answer": "an"
+  },
+  {
+    "question": " A coin is tossed five times, total no. of outcomes is",
+    "category": "Maths",
+    "options": ["4", "32", "8", "16"],
+    "correct_answer": "32"
+  },
+  {
+    "question": "How many kind of trignometry are there?",
+    "category": "Maths",
+    "options": ["Only One", "Four", "Two", "Three"],
+    "correct_answer": "Two"
+  },
+  {
+    "question": "Cos (- β) =",
+    "category": "Maths",
+    "options": ["-cos β", "cos β", "Sin β", "-Sin β"],
+    "correct_answer": "cos β"
+  },
+  {
+    "question": "2 sin 30cos30 =",
+    "category": "Maths",
+    "options": ["sin60", "cos60", "-sin60", "cot30"],
+    "correct_answer": "sin60"
+  },
+  {
+    "question": "Range of cot θ is",
+    "category": "Maths",
+    "options": ["R", "Q", "N", "Z"],
+    "correct_answer": "N"
+  },
+  {
+    "question": "A subset of A x B is called a",
+    "category": "Maths",
+    "options": ["Binary Relation", "Range", "Domain", "Digit"],
+    "correct_answer": "Binary Relation"
+  },
+  {
+    "question": "x-coordinate of a point is also called",
+    "category": "Maths",
+    "options": ["Ordinate", "Origin", "Component", "Abscissa"],
+    "correct_answer": "Abscissa"
+  },
+  {
+    "question": "Fifth order derivative of x4 is",
+    "category": "Maths",
+    "options": ["0", "24", "24x", "12x"],
+    "correct_answer": "0"
+  },
+  {
+    "question": "If f(x) is decreasing in (a, b) then i",
+    "category": "Maths",
+    "options": ["F`(c) = 0 ", " F`(c) > 0 ", "F`(c)=1 ", "F`(c)<0"],
+    "correct_answer": "F`(c)<0"
+  },
+  {
+    "question": "A plane cutting the cone parallel to its axis gives a",
+    "category": "Maths",
+    "options": ["Ellipse", "Parabola", "Circle", "Hyperbola"],
+    "correct_answer": "Hyperbola"
+  },
+  {
+    "question": "Which word has SAME meaning as CANNY",
+    "category": "English",
+    "options": ["Stout", "Clever", "Handsome", "Obstinate"],
+    "correct_answer": "Handsome"
+  },
+  {
+    "question": "What is the synonym of LUDICROUS ",
+    "category": "English",
+    "options": ["Dismal", "Clear", "Absurd", "Clear"],
+    "correct_answer": "Absurd"
+  },
+  {
+    "question": "What is the synonym of COMELY",
+    "category": "English",
+    "options": ["Delightful", "Homely", "Elegant", "Pretty"],
+    "correct_answer": "Pretty"
+  },
+  {
+    "question": "What is the synonym of Affluent",
+    "category": "English",
+    "options": ["Cupid", "Poor", "Bawdy", "Prosperous"],
+    "correct_answer": "Prosperous"
+  },
+  {
+    "question": "What is the synonym of chaotic",
+    "category": "English",
+    "options": ["Arranged", "Settled", "Disordered", "Organized"],
+    "correct_answer": "Disordered"
+  },
+  {
+    "question": "What is the synonym of shrunk",
+    "category": "English",
+    "options": ["Maximize", "Wide", "Exploit", "Dwindled"],
+    "correct_answer": "Dwindled"
+  },
+  {
+    "question": "What is the synonym of Applauded?",
+    "category": "English",
+    "options": ["Clapped", "Slapped", "Smiled", "Kicked"],
+    "correct_answer": "Clapped"
+  },
+  {
+    "question": "What is the OPPOSITE of Peaked",
+    "category": "English",
+    "options": ["Tired", "Pointy", "Arrogant", "Ruddy"],
+    "correct_answer": "Ruddy"
+  },
+  {
+    "question": "What is the OPPOSITE of Flaunt",
+    "category": "English",
+    "options": ["Whip", "Flatten", "Hiden", "Showoff"],
+    "correct_answer": "Hide"
+  },
+  {
+    "question": "What is the OPPOSITE of Gumption",
+    "category": "English",
+    "options": ["Seriousness", "Apathy", "Despair", "Peaked"],
+    "correct_answer": "Peaked"
+  },
+  {
+    "question": "What is the OPPOSITE of Quisling",
+    "category": "English",
+    "options": ["Loyalist", "Adherent", "Faithful", "Follower"],
+    "correct_answer": "Loyalist"
+  },
+  {
+    "question": "x-coordinate of a point is also called",
+    "category": "English",
+    "options": ["Ordinate", "Origin", "Component", "Abscissa"],
+    "correct_answer": "Abscissa"
+  },
+  {
+    "question": "What is the OPPOSITE of Finagle",
+    "category": "English",
+    "options": ["Fudge", "Refrain", "Wangle", "Chicane"],
+    "correct_answer": "Refrain"
+  },
+  {
+    "question": "What is the OPPOSITE of Rogue",
+    "category": "English",
+    "options": ["Saint", "Wastrel", "Louse", "Reprobate"],
+    "correct_answer": "Saint"
+  },
+  {
+    "question": "What is the OPPOSITE of Demented",
+    "category": "English",
+    "options": ["Sensible", "Authentic", "Attract", "Extract"],
+    "correct_answer": "Sensible"
+  }
+]

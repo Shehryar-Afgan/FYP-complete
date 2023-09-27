@@ -1,0 +1,197 @@
+.call-sub-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.audio-grid-container {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.seperator {
+  height: 100px;
+  border-left: 3px solid black;
+}
+
+.media-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.audio,
+.video {
+  max-width: 100%;
+}
+
+.side-tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.side-tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 14px;
+}
+
+.side-tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.side-tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+.audio-element {
+  width: 100px;
+  height: 100px;
+  border: 3px solid rgb(12, 190, 12);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+@media screen and (width < 1100px) {
+  .audio-grid-container {
+    flex-direction: column;
+    height: 350px;
+  }
+  .seperator {
+    width: 100px;
+    height: 0;
+    border-left: 0;
+    border-top: 2px solid black;
+  }
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.blinking {
+  -webkit-animation: 2s blink ease infinite;
+  -moz-animation: 2s blink ease infinite;
+  -ms-animation: 2s blink ease infinite;
+  -o-animation: 2s blink ease infinite;
+  animation: 2s blink ease infinite;
+}
+
+@keyframes blink {
+  from,
+  to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes blink {
+  from,
+  to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes blink {
+  from,
+  to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes blink {
+  from,
+  to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes blink {
+  from,
+  to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+body {
+  background: #eee;
+}
+
+.cell-1 {
+  border-collapse: separate;
+  border-spacing: 0 4em;
+  background: #ffffff;
+  border-bottom: 5px solid transparent;
+  /*background-color: gold;*/
+  background-clip: padding-box;
+  cursor: pointer;
+}
